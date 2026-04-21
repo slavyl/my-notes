@@ -11,6 +11,10 @@
  11. git commit -m "first commit"
  12. Создать репозитории с любым именем на GitHub (не ставить галочку при добавлении папки readme)
  13. git remote add origin https://github.com/slavyl/my-first-project.git - remote делает один раз и далее просто после коммита идет git push
+ 14. git push -u origin *main* (название ветки имеет значение)
+ Если ошибка после git push error: failed to push some refs to 'https://github.com/slavyl/my-notes.git':
+ 1. проверить на какой ветке находишься git.branch
+ 2. git push -u origin *название ветки*
 
 
 КАК ЗАПИСЫВАТЬ КОНСПЕКТЫ
